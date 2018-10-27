@@ -12,8 +12,79 @@ html { box-sizing: border-box; }
  facebook   #3b5998
  twitter    #1da1f2
 */
-
-
 body {
     background-color: #bdc3c7;
+    max-width: 250px;
+    font-family: 'Source Sans Pro';
+    box-shadow: #4d5358 -2px 2px 15px;
+    margin: 5% 3%;
 }
+
+.jmeno{
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.foto{
+    max-width: 250px;
+}
+
+.logo{
+    background-color: #b92e81;
+    border-radius: 50%;
+    position: absolute;
+    left: 21%;
+    top: 29%;
+}
+
+.obsah{
+    padding: 1em;
+}
+
+.odkazy{
+    font-family: 'Montserrat';
+    justify-content: space-between;
+}
+
+div{
+    color: #bdc3c7;
+    background-color: #31363b;
+}
+
+ul{
+    text-transform: uppercase;
+    padding:0;
+    text-align: center;  
+}
+
+li {
+    display: block; 
+    padding: 10px;
+    border-top: solid 0.5px #bdc3c7;
+    font-size: 90%;
+}
+
+a{
+    text-decoration: none;
+    color: #bdc3c7;
+    font-weight: bold; 
+}
+
+a:hover{
+    color: white;
+}
+
+.portfolio:hover{
+    background-color: #e74c3c;
+}
+
+.facebook:hover{
+    background-color: #3b5998;
+}
+
+.twitter:hover{
+    background-color: #1da1f2;
+}
+
