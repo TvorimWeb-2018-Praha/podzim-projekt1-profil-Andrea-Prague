@@ -14,8 +14,12 @@ html { box-sizing: border-box; }
 */
 body {
     background-color: #bdc3c7;
-    max-width: 250px;
     font-family: 'Source Sans Pro';
+}
+
+.profil{
+    max-width: 250px;
+    overflow: auto;
     box-shadow: #4d5358 -2px 2px 15px;
     margin: 5% 3%;
 }
@@ -24,7 +28,6 @@ body {
     font-family: 'Montserrat';
     color: white;
     font-size: 150%;
-    font-weight: bold;
 }
 
 .foto{
@@ -35,8 +38,8 @@ body {
     background-color: #b92e81;
     border-radius: 50%;
     position: absolute;
-    left: 21%;
-    top: 29%;
+    left: 215px;
+    top: 210px;
 }
 
 .obsah{
@@ -57,19 +60,32 @@ ul{
     text-transform: uppercase;
     padding:0;
     text-align: center;  
+    justify-items: auto;
 }
 
 li {
-    display: block; 
     padding: 10px;
-    border-top: solid 0.5px #bdc3c7;
+    border-top: solid 0.5px #3f464d;
     font-size: 90%;
+    justify-items: auto;
+    list-style: none;
 }
 
 a{
     text-decoration: none;
     color: #bdc3c7;
     font-weight: bold; 
+    display: block;
+}
+
+.facebook{
+    float: left;
+    width: 125px;
+}
+
+.twitter{
+    float: left;
+    width: 125px;
 }
 
 a:hover{
